@@ -1,0 +1,62 @@
+html{
+  background-color: #f4aa42;
+  font-family: 'Lobster', cursive;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 800px;
+  grid-gap: 2.5%;
+}
+
+.container div{
+  height: 400px;
+}
+
+#page1{
+  background-image: url(https://images.unsplash.com/photo-1521412644187-c49fa049e84d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=488b21b3046696d05e2488d3113b93ef&auto=format&fit=crop&w=668&q=80);
+  background-repeat: no-repeat;
+  width:100%;
+  height:800px;
+  display: block;
+  margin: 0% auto;
+}
+
+#page2{
+  background-color: white;
+  border: 1px solid black;
+  overflow: scroll;
+}
+
+h1{
+  color:white;
+  font-size: 60px;
+  text-shadow: 2px 2px #ff0000;
+}
+
+#opinion{
+  width: 50%;
+  height:60px;
+}
+
+form{
+  margin:10% 5%;
+}
+
+input{
+  margin-top: 10px;
+  color; white;
+  border: 1px solid orange;
+  font-size: 15px;
+}
+
+ol{
+  list-style-type: none;
+}
+
+#postings li{
+  margin: 5%;
+  color: blue;
+  font-size: 20px;
+}
